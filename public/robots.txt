@@ -1,0 +1,13 @@
+# robots.txt for DispoRx
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://www.disporx.com/sitemap.xml
+
+# Crawl-delay (optional, for polite crawlers)
+Crawl-delay: 1
+
+# Disallow admin or private paths (none currently)
+# Disallow: /admin/
+

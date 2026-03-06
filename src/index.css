@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@theme {
+  /* DispoRx brand blue from logo: #1570ef */
+  --color-primary-50: #e6f1fe;
+  --color-primary-100: #cce3fd;
+  --color-primary-200: #99c7fb;
+  --color-primary-300: #66abf9;
+  --color-primary-400: #338ff7;
+  --color-primary-500: #1570ef; /* Main brand color from logo */
+  --color-primary-600: #0d5bc2;
+  --color-primary-700: #0a4695;
+  --color-primary-800: #073268;
+  --color-primary-900: #051d3b;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply antialiased;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  
+  .text-pretty {
+    text-wrap: pretty;
+  }
+}
+
