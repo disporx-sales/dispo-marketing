@@ -48,7 +48,7 @@ export default function Hero() {
             {/* Main Headline - White text */}
             <div className="space-y-4">
               <h1 className="text-5xl font-bold tracking-tight text-white sm:text-6xl lg:text-7xl">
-                Reducing ER discharge delays with{' '}
+                Minimizing ER discharge delays with{' '}
                 <span className="text-primary-300">AI-powered</span> workflows.
               </h1>
             </div>
